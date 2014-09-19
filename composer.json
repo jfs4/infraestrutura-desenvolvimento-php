@@ -1,0 +1,29 @@
+{
+    "require-dev" : {
+        "phpspec/phpspec" : "2.0.1",
+        "behat/behat" : "3.0.12",
+        "phpunit/phpunit" : "4.2.0"
+    },
+    "config" : {
+        "bin-dir" : "bin"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "" : "src"
+        }
+    },
+    "name" : "ProjetoInicial",
+    "description" : "Ambiente de Estudo",
+    "authors" : [{
+            "name" : "Jose Francisco",
+            "email" : "silvavictd@gmail.com",
+            "role" : "develop"
+        }
+    ],
+    "support" : {
+        "email" : "silvaivctd@gmail.com"
+    },
+    "require" : {
+         "php": ">=5.3.2"
+    }
+}
